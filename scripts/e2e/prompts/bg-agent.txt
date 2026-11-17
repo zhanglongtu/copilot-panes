@@ -1,0 +1,1 @@
+Call the task tool exactly once with agent_type general-purpose, model @MODEL@, mode background, name e2e-bg. Its prompt: use the bash tool in sync mode to run `bash @EMIT@ 20 agentbg`, wait for it to finish, then reply only DONE. Do not wait for it; reply only STARTED right after the task tool returns.

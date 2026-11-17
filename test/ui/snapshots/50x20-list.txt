@@ -1,0 +1,20 @@
+webshop  ›  修登录失败的 …  4 个在跑  87.7万 token
+  ✓ find-bug           1m29s 40.9万 交回了报告
+  ○ write-docs         1m36s  3.6万 做完一轮，等…
+▌ ⠹ fix-login          2m14s 19.4万 等 run-tests …
+  ⠹   run-tests          48s  1.1万 跑 pytest
+  ⠹     $ pytest -v t…   41s        7/23 30%
+  ↓ 下面还有 4 个，其中 1 个在跑
+┌─ fix-login  修登录失败的 bug  在跑 2m14s ───────
+│ 先看 refreshToken() 现在在哪里清空会话。
+│ ▸ 看  src/auth.ts 第 40 到 96 行
+│ ▸ 搜  clearSession(  共 3 处
+│ 清空会话的调用在第 71 行。我把它移到
+│ logout()，再补一条测试。
+│ ▸ 改  src/auth.ts  +4 −3
+│ ▸ 起子 agent  run-tests  small-1.0
+│ ⠹ 等 run-tests 交回结果  48s
+│
+├─────────────────────────────────────────────────
+│ › 插一句话给 fix-login，它做完手上这一步就会看到
+↑↓ 选择  Enter 进入  x 停止  z 放大  ? 帮助

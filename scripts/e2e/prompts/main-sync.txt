@@ -1,0 +1,1 @@
+Use the bash tool in sync mode, wait for it to finish, then reply only DONE. Command: bash @EMIT@ 8 mainsync

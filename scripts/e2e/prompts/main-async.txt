@@ -1,0 +1,1 @@
+Use the bash tool with mode async (not detached) to run `bash @EMIT@ 60 mainasync`. Do not wait for it and do not read its output; reply only STARTED right away.

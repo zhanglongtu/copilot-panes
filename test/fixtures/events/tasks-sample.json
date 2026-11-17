@@ -1,0 +1,10 @@
+{
+  "ts": 1794805255,
+  "tasks": [
+    {"type": "agent", "id": "aaaaaaaa-0000-4000-8000-000000000001", "toolCallId": "toolu_task_alpha", "status": "running", "executionMode": "background", "canPromoteToBackground": false},
+    {"type": "agent", "id": "aaaaaaaa-0000-4000-8000-000000000002", "toolCallId": "toolu_task_beta", "status": "idle", "executionMode": "background", "canPromoteToBackground": false},
+    {"type": "agent", "id": "aaaaaaaa-0000-4000-8000-000000000003", "toolCallId": "toolu_task_gamma", "status": "completed", "executionMode": "background", "canPromoteToBackground": false},
+    {"type": "shell", "id": "1", "toolCallId": "toolu_cmd1", "status": "running", "executionMode": "sync", "canPromoteToBackground": true, "command": "make test", "pid": 4242}
+  ],
+  "error": null
+}

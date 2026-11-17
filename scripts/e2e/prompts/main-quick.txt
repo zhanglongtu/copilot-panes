@@ -1,0 +1,1 @@
+Use the bash tool in sync mode to run `bash @EMIT@ 0 quick`, then reply only DONE.

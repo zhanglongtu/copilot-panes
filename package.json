@@ -1,0 +1,51 @@
+{
+  "name": "copilot-panes",
+  "version": "0.1.0",
+  "description": "A tmux side pane that shows the sub-agents and background shell commands of a GitHub Copilot CLI session.",
+  "license": "MIT",
+  "author": "zhanglongtu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanglongtu/copilot-panes.git"
+  },
+  "homepage": "https://github.com/zhanglongtu/copilot-panes",
+  "bugs": {
+    "url": "https://github.com/zhanglongtu/copilot-panes/issues"
+  },
+  "keywords": [
+    "github-copilot",
+    "copilot-cli",
+    "tmux",
+    "terminal",
+    "tui",
+    "sub-agents"
+  ],
+  "private": true,
+  "type": "module",
+  "os": [
+    "linux"
+  ],
+  "engines": {
+    "node": ">=22.18"
+  },
+  "bin": {
+    "copilot-panes": "dist/copilot-panes.mjs"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import ./test/helpers/isolate-home.ts --test \"test/**/*.test.ts\"",
+    "dev": "node src/cli.ts",
+    "bench:transcript": "node scripts/bench/transcript.ts",
+    "bench:cpu": "node scripts/bench/cpu.ts"
+  },
+  "dependencies": {
+    "@xterm/headless": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  }
+}

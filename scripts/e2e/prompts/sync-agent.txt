@@ -1,0 +1,1 @@
+Call the task tool exactly once with agent_type general-purpose, model @MODEL@, mode sync, name e2e-sync. Its prompt: use the bash tool in sync mode to run `bash @EMIT@ 20 agentsync`, wait for it to finish, then reply only DONE. When the task tool returns, reply only OK.

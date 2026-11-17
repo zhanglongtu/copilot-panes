@@ -1,0 +1,1 @@
+Reload the extensions now with the extensions_reload tool, then reply only RELOADED.

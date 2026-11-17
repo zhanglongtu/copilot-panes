@@ -1,0 +1,1 @@
+Use the bash tool with mode async (not detached) to run `bash @DIR@/progress.sh 40 build`. Do not wait for it and do not read its output; reply only STARTED right away.

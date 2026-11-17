@@ -1,0 +1,1 @@
+Use the bash tool with mode async (not detached) to run `bash @DIR@/trapint.sh 120 stubborn`. Do not wait for it and do not read its output; reply only STARTED right away.

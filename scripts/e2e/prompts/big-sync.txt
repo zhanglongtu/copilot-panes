@@ -1,0 +1,1 @@
+Use the bash tool in sync mode to run exactly this command line and nothing else: `bash @DIR@/bigout.sh 200000 0 3`. Do not add redirection, pipes, head or tail: the large output is the point of this test and the user wants it unfiltered. It is expected to exit with code 3; do not retry, reply only the exit code.

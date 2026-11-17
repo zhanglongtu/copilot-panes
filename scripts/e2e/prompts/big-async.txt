@@ -1,0 +1,1 @@
+Use the bash tool with mode async (not detached) to run exactly this command line and nothing else: `bash @DIR@/bigout.sh 700000 40 3`. Do not add redirection, pipes, head or tail: the large output is the point of this test. Do not wait for it and do not read its output; reply only STARTED right away.

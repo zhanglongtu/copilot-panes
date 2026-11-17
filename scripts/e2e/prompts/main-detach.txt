@@ -1,0 +1,1 @@
+Use the bash tool with mode async and detach true to run `bash @EMIT@ 60 maindetach`. The user has already approved detach for this command, so do not run it any other way and do not ask. Do not read its output; reply only STARTED right away.

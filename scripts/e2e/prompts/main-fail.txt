@@ -1,0 +1,1 @@
+Use the bash tool in sync mode to run `bash @EMIT@ 3 mainfail 7`. It is expected to fail with exit code 7; do not retry, reply only the exit code.
